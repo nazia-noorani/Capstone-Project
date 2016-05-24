@@ -1,0 +1,37 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".drawerfragments.AboutFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About us"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Shaping young minds with skill oriented and value based education is what we believe at K.I.E.T. Founded in 1997, K.I.E.T holds the title of the best institute for technical studies in the entire National Capital Region. Serving quality education for more than a decade, K.I.E.T is recognised for its excellence in management, pharmacy and technical studies.
+
+We are proud to announce the début of our inter college sports meet 'Rann'16' from 11th to 13th of March.
+
+Whether you command the straight drive or bowl an in-swinging Yorker. Whether you set the badminton court on fire with your smashes or produce a blazing ace serve at the tennis court. Whether you chip the goalkeeper at the football ground or shoot a 3 pointer at the basketball court. Whether you boost the ball at the volleyball court or spin the ball at the TT arena..... Join the battlefield because winners never quit and quitters never win.
+
+So assemble your task force. Bring in your team. Here, we provide you a platform to unleash that fervour. A place to refuge for all the sports lovers out there and a place to overcome their fears.
+
+'Come and live Sports with us.'" />
+</LinearLayout>
+
+</ScrollView>

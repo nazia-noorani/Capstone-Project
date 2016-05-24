@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'SportsFest'
+            keyPassword 'udacity'
+            storeFile file('/Users/nazianoorani/Desktop/Capstone Project/SportsFestApp/keystore.jks')
+            storePassword 'udacity'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+    defaultConfig {
+        applicationId "nazianoorani.sportsfestapp"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile files('libs/volley.jar')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.0.0-alpha2'
+    compile 'com.android.support:design:24.0.0-alpha2'
+    compile 'com.android.support:cardview-v7:24.0.0-alpha2'
+    compile 'com.android.support:recyclerview-v7:24.0.0-alpha2'
+    compile 'com.joanzapata.pdfview:android-pdfview:1.0.4@aar'
+    compile 'com.android.support:support-v4:24.0.0-alpha2'
+    compile 'com.andreabaccega:android-form-edittext:1.2.1@aar'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.google.android.gms:play-services:9.0.0'
+    compile 'com.google.android.gms:play-services-analytics:9.0.0'
+    compile 'com.google.android.gms:play-services-maps:9.0.0'
+}

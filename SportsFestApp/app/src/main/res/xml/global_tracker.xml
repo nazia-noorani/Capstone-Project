@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ga_sessionTimeout">300</integer>
+
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!-- The screen names that will appear in reports -->
+    <screenName
+        name="nazianoorani.sportsfestapp.MainActivity">
+        Screen MainActivity
+    </screenName>
+    <screenName
+        name="nazianoorani.sportsfestapp.DetailsActivity">
+        Screen Detail
+    </screenName>
+    <screenName
+        name="nazianoorani.sportsfestapp.MapsActivity">
+        Screen Map
+    </screenName>
+    <screenName
+        name="nazianoorani.sportsfestapp.IndividualEventsFragment">
+        Screen Individual Events
+    </screenName>
+    <screenName
+        name="nazianoorani.sportsfestapp.TeamEventsFragment">
+        Screen Team Events
+    </screenName>
+    <!--  The following value should be replaced with correct property id. -->
+
+
+    <string name="ga_trackingId">UA-78217410-1</string>
+</resources>

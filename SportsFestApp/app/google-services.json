@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "887621201848",
+    "project_id": "sportsfestapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887621201848:android:8323ea5231d5a06b",
+        "android_client_info": {
+          "package_name": "nazianoorani.sportsfestapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887621201848-ct2nvr715uakgleur9holrh5tqk52870.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nazianoorani.sportsfestapp",
+            "certificate_hash": "ED1627CDB369B74A7416D7F5B6D7516D84537FFF"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ8v0dLXo8BfEAPuSBFeO_jHl1vCHM2G0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-78217410-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

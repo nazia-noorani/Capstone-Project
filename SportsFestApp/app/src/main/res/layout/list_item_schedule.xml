@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="@dimen/card_corner_radius"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:paddingTop="@dimen/layout_padding">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:id="@+id/teamA_chest"
+                        android:layout_width="@dimen/team_img_width"
+                        android:layout_height="@dimen/team_img_height"
+                        />
+
+                    <TextView
+                        android:id="@+id/teamA_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Galgotias"
+                        android:padding="@dimen/layout_padding"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="VS"
+                        android:textSize="20sp"
+                        android:layout_weight="1"
+                        android:padding="@dimen/layout_padding" />
+                    <TextView
+                        android:id="@+id/match_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="18:00  "
+                        />
+                    <TextView
+                        android:id="@+id/match_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/layout_margin"
+                        android:text="21-March"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:id="@+id/teamB_chest"
+                        android:layout_width="@dimen/team_img_width"
+                        android:layout_height="@dimen/team_img_height"
+                        />
+
+                    <TextView
+                        android:id="@+id/teamB_name"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="SRM"
+                        android:padding="@dimen/layout_padding"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/venue"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:drawableStart="@drawable/ic_place"
+                android:text=" Click to check out the venue"
+                android:padding="@dimen/layout_padding"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:whatever="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="textPersonName"
+                        android:hint="Name"
+                        android:ems="10"
+                        android:textSize="16sp"
+                        android:id="@+id/editName"
+                        android:layout_gravity="center_horizontal" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp">
+
+                    <!--<com.andreabaccega.widget.FormEditText-->
+                        <!--whatever:testType="regexp"-->
+                        <!--whatever:customRegexp="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$"-->
+                        <!--whatever:testErrorString="Email not valid"-->
+                        <!--android:id="@+id/editEmail"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:hint="Enter Email"-->
+                        <!--android:textSize="16sp"-->
+                        <!--android:ems="10"-->
+                        <!--android:inputType="textEmailAddress"-->
+                        <!--android:layout_gravity="center_horizontal"-->
+                        <!--/>-->
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="textEmailAddress"
+                        android:ems="10"
+                        android:textSize="16sp"
+                        android:hint="Email"
+                        android:id="@+id/editEmail"
+                        android:layout_gravity="center_horizontal" />
+
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="phone"
+                        android:hint="Mobile No."
+                        android:ems="10"
+                        android:textSize="16sp"
+                        android:id="@+id/editMobNo" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/editCollege"
+                        android:hint="College"
+                        android:textSize="16sp"
+                        android:layout_gravity="center_horizontal" />
+                </android.support.design.widget.TextInputLayout>
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="15dp"
+                    ></Spinner>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    <TextView
+        android:id="@+id/btn_submit"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="50dp"
+  android:textSize="16sp"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="bottom"
+
+        />
+</FrameLayout>
