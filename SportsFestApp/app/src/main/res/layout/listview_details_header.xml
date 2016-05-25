@@ -14,9 +14,9 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:padding="10dip"
+        android:padding="@dimen/pg_indicator_padding"
         app:centered="true"
-        app:fillColor="#000"
-        app:pageColor="#FFF"
+        app:fillColor="@android:color/black"
+        app:pageColor="@android:color/white"
         app:snap="false" />
 </FrameLayout>

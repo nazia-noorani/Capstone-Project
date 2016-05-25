@@ -119,7 +119,7 @@ public class RegisterFragment extends Fragment implements AdapterView.OnItemSele
             case R.id.btn_submit :
                 if(valid())
                     register();
-                else Toast.makeText(getActivity(), "some data is invalid", Toast.LENGTH_SHORT).show();
+                else Toast.makeText(getActivity(), getString(R.string.invalid_data), Toast.LENGTH_SHORT).show();
         }
 
     }
@@ -161,11 +161,11 @@ public class RegisterFragment extends Fragment implements AdapterView.OnItemSele
                     progressDialog.dismiss();
                     Log.e("response", jsonObject.toString());
                     if(jsonObject.optString("success").equalsIgnoreCase("1")) {
-                        Toast.makeText(getActivity(), "Registered successfully", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getActivity(), getString(R.string.reg_success), Toast.LENGTH_LONG).show();
                         getActivity().onBackPressed();
                     }
                     else if(jsonObject.optString("success").equalsIgnoreCase("0"))
-                        Toast.makeText(getActivity(),"Email already registered",Toast.LENGTH_LONG).show();
+                        Toast.makeText(getActivity(), getString(R.string.reg_fail),Toast.LENGTH_LONG).show();
 
                 }
             }, new Response.ErrorListener() {

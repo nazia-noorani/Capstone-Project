@@ -5,19 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/layout_padding"
-    android:layout_marginLeft="@dimen/layout_margin">
+    android:layout_marginLeft="@dimen/layout_margin"
+    android:layout_marginStart="@dimen/layout_margin">
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="100dp"
-        android:padding="15dp">
+        android:layout_marginTop="@dimen/layout_margin_top"
+        android:padding="@dimen/layout_padding">
         <ImageView
             android:id="@+id/img_apex_fac"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/contact_img_size"
+            android:layout_height="@dimen/contact_img_size"
             android:background="@drawable/harshit"/>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -27,8 +28,10 @@
                 android:id="@+id/txt_fac_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" Harshit Shrivastav"
-                android:textSize="15sp"
+                android:text="@string/apex_name_harshit"
+                android:paddingLeft="@dimen/layout_padding"
+                android:paddingStart="@dimen/layout_padding"
+                android:textSize="@dimen/text_size"
                 android:layout_gravity="center_horizontal"
                 android:gravity="center"/>
             <TextView
@@ -37,8 +40,9 @@
                 android:layout_height="wrap_content"
                 android:text="@string/contact_one"
                 android:layout_marginTop="@dimen/layout_margin"
-                android:textSize="15sp"
+                android:textSize="@dimen/text_size"
                 android:paddingLeft="@dimen/layout_padding"
+                android:paddingStart="@dimen/layout_padding"
                 android:layout_gravity="center_horizontal"
                 android:gravity="center"/>
         </LinearLayout>
@@ -49,12 +53,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="50dp"
-        android:padding="15dp">
+        android:layout_marginTop="@dimen/margin_top"
+        android:padding="@dimen/layout_padding">
         <ImageView
             android:id="@+id/img_apex_stu"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/contact_img_size"
+            android:layout_height="@dimen/contact_img_size"
             android:background="@drawable/kartik"/>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -64,8 +68,10 @@
                 android:id="@+id/txt_stu_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Kartik Saxena"
-                android:textSize="15sp"
+                android:text="@string/apex_name_kartik"
+                android:paddingLeft="@dimen/layout_padding"
+                android:paddingStart="@dimen/layout_padding"
+                android:textSize="@dimen/text_size"
                 android:layout_gravity="center_horizontal"
                 android:gravity="center"/>
             <TextView
@@ -74,8 +80,9 @@
                 android:layout_height="wrap_content"
                 android:text="@string/contact_sec"
                 android:paddingLeft="@dimen/layout_padding"
+                android:paddingStart="@dimen/layout_padding"
                 android:layout_marginTop="@dimen/layout_margin"
-                android:textSize="15sp"
+                android:textSize="@dimen/text_size"
                 android:layout_gravity="center_horizontal"
                 android:gravity="center"/>
         </LinearLayout>

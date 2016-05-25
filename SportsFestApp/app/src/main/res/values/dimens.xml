@@ -9,17 +9,55 @@
     <dimen name="team_img_height">50dp</dimen>
     <dimen name="event_img_height">250dp</dimen>
     <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="pg_indicator_padding">10dip</dimen>
+    <dimen name="sliding_img_layout_padding">10dip</dimen>
+
+
     <dimen name="layout_margin">5dp</dimen>
     <dimen name="viewpager_height">200dp</dimen>
+
+    <!--navigation drawer-->
+    <dimen name="height_img">200dp</dimen>
+    <!--register fragment-->
+    <dimen name="margin_bottom">50dp</dimen>
+    <dimen name="layout_padding_reg">16dp</dimen>
+    <dimen name="layout_height">60dp</dimen>
+    <dimen name="layout_margin_top_reg">10dp</dimen>
+
+
+
+    <!--list item -->
+    <dimen name="padding_list_item">30dp</dimen>
+
 
     <dimen name="star_width">50dp</dimen>
     <dimen name="star_height">50dp</dimen>
     <dimen name="share_btn_margin">50dp</dimen>
 
 
+    <!--schedule fragment-->
+    <dimen name="custom_size">50dp</dimen>
+    <dimen name="venue_height">40dp</dimen>
+
+    <!--result fragment-->
+    <dimen name="layout_height_res">100dp</dimen>
+    <dimen name="layout_padding_res">18dp</dimen>
+    <dimen name="txt_size_res">40sp</dimen>
+    <dimen name="first_view_padding_bottom">40dp</dimen>
+    <dimen name="first_view_layout_height">170dp</dimen>
+    <dimen name="txt_label_size">20sp</dimen>
+
+    <!--contact fragment-->
+    <dimen name="margin_top">50dp</dimen>
+    <dimen name="contact_img_size">50dp</dimen>
+    <dimen name="layout_margin_top">100dp</dimen>
+
+
     <!--widget-->
     <dimen name="widget_margin">8dp</dimen>
     <dimen name="text_size">17sp</dimen>
+    <dimen name="divider_height">1sp</dimen>
 
 
     <dimen name="widget_detail_default_width">250dp</dimen>
@@ -27,6 +65,7 @@
     <dimen name="widget_detail_min_resize_width">220dp</dimen>
     <dimen name="widget_detail_min_resize_height">@dimen/widget_detail_default_height</dimen>
     <dimen name="widget_padding">5dp</dimen>
+    <dimen name="widget_padding_list_item">20dp</dimen>
 
 
 </resources>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -11,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_margin="16dp">
+        android:layout_margin="@dimen/activity_vertical_margin">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -23,33 +22,32 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="18dp"
-            android:textSize="20sp"
+            android:padding="@dimen/layout_padding_res"
+            android:textSize="@dimen/txt_label_size"
             android:typeface="serif"
-            android:textColor="#000"
+            android:textColor="@android:color/black"
             android:textStyle="bold"
-            android:text="SRM"
+            android:text="@string/SRM"
 
             />
                 <TextView
                 android:id="@+id/txt_win"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:padding="18dp"
-                android:text="2"
+                android:layout_height="@dimen/layout_height_res"
+                android:padding="@dimen/layout_padding_res"
+                android:text="@string/second"
                 android:gravity="center"
-                android:textSize="40sp"
-                android:textColor="#FFF"
+                android:textSize="@dimen/txt_size_res"
+                android:textColor="@android:color/white"
                 android:typeface="serif"
                 android:textStyle="bold"
-               android:background="#00897B"
+               android:background="@color/colorPrimary"
                 />
             </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-
             android:layout_weight="1"
             android:gravity="bottom"
 
@@ -57,25 +55,25 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="18dp"
-                android:textSize="20sp"
+                android:padding="@dimen/layout_padding_res"
+                android:textSize="@dimen/txt_label_size"
                 android:typeface="serif"
                 android:textStyle="bold"
-                android:textColor="#000"
-                android:text="KIET"
+                android:textColor="@android:color/black"
+                android:text="@string/kiet"
                 />
             <TextView
                 android:id="@+id/txt_runners"
                 android:layout_width="match_parent"
-                android:layout_height="170dp"
-                android:text="1"
-                android:paddingBottom="40dp"
+                android:layout_height="@dimen/first_view_layout_height"
+                android:text="@string/first"
+                android:paddingBottom="@dimen/first_view_padding_bottom"
                 android:gravity="center"
-                android:textSize="40sp"
-                android:textColor="#FFF"
+                android:textSize="@dimen/txt_size_res"
+                android:textColor="@android:color/white"
                 android:typeface="serif"
                 android:textStyle="bold"
-                android:background="#00897B"
+                android:background="@color/colorPrimary"
                 />
         </LinearLayout>
         <LinearLayout
@@ -87,25 +85,25 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="18dp"
-                android:textSize="20sp"
+                android:padding="@dimen/layout_padding_res"
+                android:textSize="@dimen/txt_label_size"
                 android:typeface="serif"
                 android:textStyle="bold"
-                android:textColor="#000"
-                android:text=" HRIT"
+                android:textColor="@android:color/black"
+                android:text="@string/HRIT"
                 />
             <TextView
                 android:id="@+id/txt_sec_runners"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:padding="18dp"
+                android:layout_height="@dimen/layout_height_res"
+                android:padding="@dimen/layout_padding_res"
                 android:gravity="center"
-                android:text="3"
-                android:textSize="40sp"
-                android:textColor="#FFF"
+                android:text="@string/third"
+                android:textSize="@dimen/txt_size_res"
+                android:textColor="@android:color/white"
                 android:typeface="serif"
                 android:textStyle="bold"
-                android:background="#00897B"
+                android:background="@color/colorPrimary"
                 />
         </LinearLayout>
 
@@ -116,7 +114,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/share_btn_margin"
-        android:text="Share"
+        android:text="@string/share"
         android:background="@color/colorPrimary"
         android:textColor="@android:color/white"/>
 </LinearLayout>

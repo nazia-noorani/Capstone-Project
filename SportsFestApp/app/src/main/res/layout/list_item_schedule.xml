@@ -8,9 +8,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         card_view:cardCornerRadius="@dimen/card_corner_radius"
-        android:layout_margin="5dp"
-        android:layout_marginTop="5dp"
-        >
+        android:layout_margin="@dimen/layout_margin"
+        android:layout_marginTop="@dimen/layout_margin">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -38,7 +37,6 @@
                         android:id="@+id/teamA_name"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Galgotias"
                         android:padding="@dimen/layout_padding"
                         android:textStyle="bold"/>
 
@@ -51,23 +49,22 @@
                     android:layout_weight="1">
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="50dp"
-                        android:text="VS"
-                        android:textSize="20sp"
+                        android:layout_height="@dimen/custom_size"
+                        android:text="@string/vs"
+                        android:textSize="@dimen/txt_label_size"
                         android:layout_weight="1"
                         android:padding="@dimen/layout_padding" />
                     <TextView
                         android:id="@+id/match_time"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:text="18:00  "
+
                         />
                     <TextView
                         android:id="@+id/match_date"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginTop="@dimen/layout_margin"
-                        android:text="21-March"
                         />
 
                 </LinearLayout>
@@ -85,9 +82,9 @@
 
                     <TextView
                         android:id="@+id/teamB_name"
-                        android:layout_width="50dp"
+                        android:layout_width="@dimen/custom_size"
                         android:layout_height="wrap_content"
-                        android:text="SRM"
+                        android:text="@string/SRM"
                         android:padding="@dimen/layout_padding"
                         android:textStyle="bold"/>
 
@@ -97,9 +94,10 @@
             <TextView
                 android:id="@+id/venue"
                 android:layout_width="wrap_content"
-                android:layout_height="40dp"
+                android:layout_height="@dimen/venue_height"
                 android:drawableStart="@drawable/ic_place"
-                android:text=" Click to check out the venue"
+                android:drawableLeft="@drawable/ic_place"
+                android:text="@string/venue"
                 android:padding="@dimen/layout_padding"
                 android:textStyle="bold"/>
         </LinearLayout>

@@ -17,7 +17,6 @@ import nazianoorani.sportsfestapp.TeamEventsFragment;
 public class SectionsPagerAdapter extends FragmentStatePagerAdapter {
     SparseArray<Fragment> registeredFragments = new SparseArray<>();
 
-
     public SectionsPagerAdapter(FragmentManager fm) {
         super(fm);
     }

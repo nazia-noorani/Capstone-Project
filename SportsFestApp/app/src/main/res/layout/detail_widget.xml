@@ -10,9 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
-        android:text="Sports Fest"
-        android:padding="10dp"
-        android:textColor="#fff"
+        android:text="@string/widget_title"
+        android:padding="@dimen/layout_padding"
+        android:textColor="@android:color/white"
         android:background="@color/colorPrimary"/>
     <FrameLayout
         android:layout_width="match_parent"
@@ -23,8 +23,8 @@
             android:id="@+id/widget_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:divider="#888"
-            android:dividerHeight="1sp"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="@dimen/divider_height"
             tools:listitem="@layout/widget_detail_list_item"/>
         <TextView
             android:id="@+id/widget_empty"
@@ -32,7 +32,7 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:textColor="@android:color/black"
-            android:text="No match"
+            android:text="@string/widget_no_schedule"
             android:textAppearance="?android:textAppearanceLarge"
             />
     </FrameLayout>
