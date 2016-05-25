@@ -4,9 +4,9 @@ android {
     signingConfigs {
         config {
             keyAlias 'SportsFest'
-            keyPassword 'udacity'
-            storeFile file('/Users/nazianoorani/Desktop/Capstone Project/SportsFestApp/keystore.jks')
-            storePassword 'udacity'
+            keyPassword '***'
+            storeFile file('.../keystore.jks')
+            storePassword '****'
         }
     }
     compileSdkVersion 23
